@@ -1,0 +1,47 @@
+What is Constructor in Java?
+=> Are a special type of method used to initialize an Object of a class.
+
+During initialization process constructor assigns default
+values to variables of a class.
+
+Constructor
+=> used to initialize an Object of a class
+=> it returns nothing => no return type allowed
+=> you don't need to call Constructor => it will get called as soon we create
+                                        an Object of a class.
+=> Constructor name must be same as class name
+
+                        VS
+
+Method
+=> perform specific tasks or write business logic
+=> might return us something
+=> you need to call the method then will it will get executed
+=> method name can or can not be same as class name
+
+
+Imp Points
+1) When developer does not provide any Constructor, JVM provides a Constructor in class and that
+Constructor is called as Default Constructor.
+
+2) When Developer provides a Constructor in class then JVM will not provide
+us default Constructor.
+
+3) First line in any Constructor is a call to Parent class no-arg Constructor, this line is added by JVM.
+(Developer does not need to write this line).
+
+
+
+
+JVM       => default
+developer => no-argument
+
+Types of Constructor
+1) No-argument
+2) Parameterized
+
+initialize an Object => Heap Memory store
+
+128 GB  1000 photos space in Memory
+
+Why we need Constructors in Java?
