@@ -1,0 +1,6 @@
+1) What are access modifiers in java?
+=> In java access modifiers are keywords, it is used to set the accessibility and
+   visibility of the class, methods, constructor, and variables.
+
+2) List all four types of access modifiers and explain their scope.
+=> 1) default access modifier : it is no modifier, and it access with in the same package
