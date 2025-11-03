@@ -11,9 +11,10 @@ public class InbuiltStringMethods {
 
         // charAt() Returns character at specific index
         for (int i=0; i<fullName.length(); i++){
-            System.out.println(fullName.charAt(i));
+            System.out.print(fullName.charAt(i));
         }
         //specific index
+        System.out.println();
         System.out.println("Specific index : "+fullName.charAt(7));
 
         System.out.println();
