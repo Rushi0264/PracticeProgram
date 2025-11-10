@@ -4,7 +4,7 @@ public class FindCountOfAllChar {
     public static void main(String[] args) {
         String str = "Java Programming";
 
-        str=str.toLowerCase();
+        //str=str.toLowerCase();
         str=str.replace(" ","");
 
         int[] freq = new int[256];

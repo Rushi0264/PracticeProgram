@@ -4,7 +4,7 @@ public class CountOfAllChar {
     public static void main(String[] args) {
         String str = "Java Programming";
 
-        str=str.toLowerCase();
+        //str=str.toLowerCase();
         str=str.replace(" ","");
 
         for (int i=0; i<str.length(); i++){
@@ -17,9 +17,13 @@ public class CountOfAllChar {
                 }
             }
 
+            // print first occurrence
             if (str.indexOf(ch) == i){
                 System.out.println(ch+" = "+count);
             }
+
+            //System.out.println(ch+" = "+count);
+
         }
     }
 }
