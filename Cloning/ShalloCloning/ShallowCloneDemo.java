@@ -29,7 +29,6 @@ class Employee implements Cloneable{
 public class ShallowCloneDemo {
     public static void main(String[] args)
         throws CloneNotSupportedException{
-
         //Original object
             Address add1 = new Address("Pune","Maharashtra");
             Employee emp1 = new Employee(101,"Rushi",add1);
